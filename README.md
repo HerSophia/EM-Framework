@@ -1,6 +1,6 @@
 # EM.Framework — Shared Framework for Esports Manager 2026 Mods / Mod 共享框架
 
-> Version 0.1.0 ｜ Target game / 适配游戏：Esports Manager 2026 Steam retail patch 1.0.1 (Unity 6000.3.12f1 / IL2CPP metadata v39) ｜ License: MIT
+> Version 0.1.1 ｜ Target game / 适配游戏：Esports Manager 2026 Steam retail patch 1.0.2 (Unity 6000.3.12f1 / IL2CPP metadata v39) ｜ License: MIT
 
 **Language / 语言**: [English](#english) ｜ [中文](#中文)
 
