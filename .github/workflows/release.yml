@@ -1,0 +1,31 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout into pluginfolder
+        uses: actions/checkout@v4
+        with:
+          path: EM.Framework
+
+      - name: Package plugin
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          echo "Packaging EM.Framework version $VERSION"
+          zip -r "EM.Framework-${VERSION}.zip" "EM.Framework" \
+            -x "EM.Framework/.git/*" "EM.Framework/.github/*" "EM.Framework/.gitignore"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "EM.Framework-*.zip"
+          generate_release_notes: true
