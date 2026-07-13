@@ -1,6 +1,6 @@
 # EM.Framework — Shared Framework for Esports Manager 2026 Mods / Mod 共享框架
 
-> Version 0.1.1 ｜ Target game / 适配游戏：Esports Manager 2026 Steam retail patch 1.0.2 (Unity 6000.3.12f1 / IL2CPP metadata v39) ｜ License: MIT
+> Version 0.1.7 ｜ Target game / 适配游戏：Esports Manager 2026 Steam retail patch 1.0.2 hotfix (Unity 6000.3.12f1 / IL2CPP metadata v39) ｜ License: MIT
 
 **Language / 语言**: [English](#english) ｜ [中文](#中文)
 
@@ -58,7 +58,7 @@ plugins/
 
 ### Version and compatibility
 
-- Framework version: 0.1.0 (`EM.Sdk.Sdk.Version`).
+- Framework version: 0.1.3.
 - Target game: Unity 6000.3.12f1, IL2CPP metadata v39.
 - BepInEx: 6.0.0-be.785 (IL2CPP-win-x64). The official release does not support metadata v39; BE#785 is required.
 
@@ -130,7 +130,7 @@ plugins/
 
 ### 版本与兼容
 
-- 框架版本：0.1.0（`EM.Sdk.Sdk.Version`）。
+- 框架版本：0.1.3。
 - 目标游戏：Unity 6000.3.12f1，IL2CPP metadata v39。
 - BepInEx：6.0.0-be.785（IL2CPP-win-x64）。官方 release不支持 metadata v39，必须用 BE#785。
 
